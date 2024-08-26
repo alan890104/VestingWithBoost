@@ -174,7 +174,7 @@ class VestingBoost:
             remaining vested tokens, total boost tokens, boost weight, total vested tokens,
             available tokens to claim, and current vesting speed.
         """
-        total_vested = 0
+        total_vested = self.total_vested
         remain_vest = self.remain_vest_token
         boost_weight = self.boost_weight
 
