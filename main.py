@@ -175,7 +175,7 @@ class VestingBoost:
             available tokens to claim, and current vesting speed.
         """
         total_vested = 0
-        remain_vest = self.total_vested
+        remain_vest = self.remain_vest_token
         boost_weight = self.boost_weight
 
         if self.last_update_time < BLOCK_TIMESTAMP:
